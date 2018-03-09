@@ -1,0 +1,12 @@
+version: '3.1'
+services:
+
+  couchdb-view-refresher:
+    image: kristfin/couchdb-view-refresher:latest
+    container_name: couchdb-view-refresher
+    environment:
+       - server=http://couchdb:5984
+       - user=admin
+       - password=jabadabadu
+       - daemon=true
+       - daemonDelaySec=789
