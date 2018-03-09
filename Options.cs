@@ -17,10 +17,10 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace CouchDbViewRefresher
+namespace CouchDbViewUpdate
 {
     /// <summary>
-    /// Class defining options for the CouchViewRefresher
+    /// Class defining options for the CouchViewUpdater
     /// </summary>
     public class Options
     {

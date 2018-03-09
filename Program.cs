@@ -22,7 +22,7 @@ using System.Collections.Generic;
 using System.Net;
 using System.Threading.Tasks;
 
-namespace CouchDbViewRefresher
+namespace CouchDbViewUpdate
 {   
     public class Program
     {
@@ -41,7 +41,7 @@ namespace CouchDbViewRefresher
                 .AddCommandLine(args)
                 .Build();
 
-            _logger.Information("CouchDbViewRefresher " + Version);
+            _logger.Information("CouchDbViewUpdate " + Version);
             _logger.Information(Copyright);
 
             try

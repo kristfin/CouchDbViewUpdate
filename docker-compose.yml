@@ -1,9 +1,9 @@
 version: '3.1'
 services:
 
-  couchdb-view-refresher:
-    image: kristfin/couchdb-view-refresher:latest
-    container_name: couchdb-view-refresher
+  couchdb-view-update:
+    image: kristfin/couchdb-view-update:latest
+    container_name: couchdb-view-update
     environment:
        - server=http://couchdb:5984
        - user=admin

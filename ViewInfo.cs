@@ -12,7 +12,7 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-namespace CouchDbViewRefresher
+namespace CouchDbViewUpdate
 {
     /// <summary>
     /// Simple class to store information about a single view
