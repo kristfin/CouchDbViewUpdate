@@ -102,6 +102,7 @@ namespace CouchDbViewUpdate
                 try
                 {
                     var url = _options.Server + "/" + database + "/_design/views";
+                    _logger.Information("Opening " + url);
                     var jsonString = wc.DownloadString(url);
                     var data = JsonConvert.DeserializeObject<Dictionary<string, object>>(jsonString);
                     var views = ((JObject)data["views"]).ToObject<Dictionary<string, object>>();
